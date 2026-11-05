@@ -50,7 +50,7 @@ h1 em, h2 em { color: var(--violet); font-weight: 400; }
 .button { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; gap: 20px; padding: 13px 23px; border-radius: 999px; font: 600 12px/1.2 var(--nav); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .button:hover { transform: translateY(-2px); box-shadow: 0 9px 22px rgb(53 35 62 / 13%); }
 .button-primary { background: var(--violet-deep); color: white; }
-.button-primary span { color: #f0cf87; font-size: 16px; }
+.hero-copy .button-primary { min-height: 64px; padding: 18px 36px; font-size: 14px; }
 .hero-art { position: relative; z-index: 1; width: min(100%, 1000px); margin: 0; overflow: hidden; border: 1px solid rgb(197 163 93 / 26%); border-radius: 14px; background: var(--white); box-shadow: 0 26px 70px rgb(84 52 108 / 13%); }
 .hero-art img { width: 100%; height: auto; object-fit: contain; }
 
